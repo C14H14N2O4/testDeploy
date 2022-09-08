@@ -14,6 +14,7 @@ export default function SignIn() {
         evt.preventDefault();
         navigate('/buzzer', {state: {id: id, user: user}});
     }
+    
     return (
         <Box
             component="form"
